@@ -1,12 +1,2354 @@
 <!DOCTYPE html>
-<html lang="en">
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>HOME</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="description" content="HACKEAM 2.0">
+
+    <meta name="author" content="Sudhanshu Sah Pratyush Goel Shubham Singh">
+
+    <title>Hackeam 2.0</title>
+
+    <!-- Mobile Specific Meta
+		================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Favicon -->
+    <!-- <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png" /> -->
+
+    <!-- CSS
+		================================================== -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+        crossorigin="anonymous">
+    <!-- Fontawesome Icon font -->
+    <link rel="stylesheet" href="plugins/themefisher-font/style.css">
+    <!-- bootstrap.min css -->
+    <link rel="stylesheet" href="plugins/bootstrap/dist/css/bootstrap.min.css">
+
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="plugins/animate-css/animate.css">
+    <!-- Magnific popup css -->
+    <link rel="stylesheet" href="plugins/magnific-popup/dist/magnific-popup.css">
+    <!-- Slick Carousel -->
+    <link rel="stylesheet" href="plugins/slick-carousel/slick/slick.css">
+    <link rel="stylesheet" href="plugins/slick-carousel/slick/slick-theme.css">
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/modernizr.js"></script>
+
 </head>
-<body>
-    Hello!
+
+<body id="body" data-spy="scroll" data-target=".navbar" data-offset="50">
+    <!--
+	    Start Preloader
+	    ==================================== -->
+    <div id="preloader">
+        <div class="preloader">
+            <div class="sk-cube-grid">
+                <div class="sk-cube sk-cube1"></div>
+                <div class="sk-cube sk-cube2"></div>
+                <div class="sk-cube sk-cube3"></div>
+                <div class="sk-cube sk-cube4"></div>
+                <div class="sk-cube sk-cube5"></div>
+                <div class="sk-cube sk-cube6"></div>
+                <div class="sk-cube sk-cube7"></div>
+                <div class="sk-cube sk-cube8"></div>
+                <div class="sk-cube sk-cube9"></div>
+            </div>
+        </div>
+    </div>
+    <!--
+        End Preloader
+        ==================================== -->
+
+    <!--
+Welcome Slider
+==================================== -->
+    <style type="text/css">
+        .box {
+            text-align: right;
+        }
+
+        .absolute-right {
+            display: inline-block;
+            position: absolute;
+        }
+
+        /*The magic:*/
+
+        .absolute-right {
+            -moz-transform: translateX(-100%);
+            -ms-transform: translateX(-100%);
+            -webkit-transform: translateX(-100%);
+            -o-transform: translateX(-100%);
+            transform: translateX(-100%);
+        }
+    </style>
+
+    <section class="hero-area">
+        <div class="box">
+            <div class="video-button NSITvideo-button pull-right col-xs-4">
+                <img src='images/logos/TC LOGO.png' max-width: "100%" height="auto" />
+            </div>
+        </div>
+        <div class="video-button TEAMCvideo-button pull-left col-xs-4">
+            <img src='images/logos/NSIT-Logo.png' max-width="100%" height="auto" />
+        </div>
+        <div class="block" style="text-align: center;">
+
+            <div class="video-button" style="text-align: center;">
+                <img src='images/HACKEAM.png' max-width: "100%" height="auto" />
+            </div>
+
+
+            <!-- Styles -->
+            <style>
+                .example1 {
+                    height: 50px;
+                    overflow: hidden;
+                    position: relative;
+                }
+
+                .example1 h3 {
+                    font-size: 3em;
+                    color: limegreen;
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    margin: 0;
+                    line-height: 50px;
+                    text-align: center;
+                    /* Starting position */
+                    -moz-transform: translateX(100%);
+                    -webkit-transform: translateX(100%);
+                    transform: translateX(100%);
+                    /* Apply animation to this element */
+                    -moz-animation: example1 15s linear infinite;
+                    -webkit-animation: example1 15s linear infinite;
+                    animation: example1 15s linear infinite;
+                }
+
+                /* Move it (define the animation) */
+
+                @-moz-keyframes example1 {
+                    0% {
+                        -moz-transform: translateX(100%);
+                    }
+                    100% {
+                        -moz-transform: translateX(-100%);
+                    }
+                }
+
+                @-webkit-keyframes example1 {
+                    0% {
+                        -webkit-transform: translateX(100%);
+                    }
+                    100% {
+                        -webkit-transform: translateX(-100%);
+                    }
+                }
+
+                @keyframes example1 {
+                    0% {
+                        -moz-transform: translateX(100%);
+                        /* Firefox bug fix */
+                        -webkit-transform: translateX(100%);
+                        /* Firefox bug fix */
+                        transform: translateX(100%);
+                    }
+                    100% {
+                        -moz-transform: translateX(-100%);
+                        /* Firefox bug fix */
+                        -webkit-transform: translateX(-100%);
+                        /* Firefox bug fix */
+                        transform: translateX(-100%);
+                    }
+                }
+            </style>
+            <h1 class="text-center" align="center">HACKEAM 2.0</h1>
+            <p>CHANGETHISCHANGETHISCHANGETHISCHANGETHIS</p>
+            <br/>
+            <!-- <h3 style="color: #FFC107">Hackathon will be held on</h3> -->
+            <marquee behavior="alternate">
+                <a href='#announce'>
+                    <h3 style="color: #FF9800">Click here to see Announcements</h3>
+                </a>
+            </marquee>
+
+            <!-- <div class="row text-center">
+  <div class="col-xs-12">
+        <div id="clockdiv">
+        <div>
+          <span class="days"></span>
+          <div class="smalltext">Days</div>
+        </div>
+        <div>
+          <span class="hours"></span>
+          <div class="smalltext">Hours</div>
+        </div>
+        <div>
+          <span class="minutes"></span>
+          <div class="smalltext">Minutes</div>
+        </div>
+        <div>
+          <span class="seconds"></span>
+          <div class="smalltext">Seconds</div>
+        </div>
+      </div>
+    </div>
+</div> -->
+            <!-- <p><span class="color">T</span>rek/. <span class="color">E</span>xplore. <span class="color">A</span>nalyse. <span class="color">M</span>odel. <span class="color">C</span>onquer</p> -->
+
+        </div>
+
+
+
+
+
+
+        </div>
+        <!-- /twelve -->
+
+        <!-- /scroll-icon -->
+        </div>
+
+
+
+    </section>
+
+    <!--
+  Fixed Navigation
+  ==================================== -->
+    <header id="navigation" class="navbar navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <!-- responsive nav button -->
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <!-- /responsive nav button -->
+
+                <!-- logo -->
+                <a class="navbar-brand logo" href='#'>
+                    <img src="images/HACKEAM.png" alt="Hackeam" />
+                    <!-- <svg width="40px" height="40px" viewBox="0 0 45 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                            <g id="Group" transform="translate(2.000000, 2.000000)" stroke="#57CBCC" stroke-width="3">
+                                <ellipse id="Oval" cx="20.5" cy="20" rx="20.5" ry="20"></ellipse>
+                                <path d="M6,7 L33.5,34.5" id="Line-2" stroke-linecap="square"></path>
+                                <path d="M21,20 L34,7" id="Line-3" stroke-linecap="square"></path>
+                            </g>
+                        </g>
+                    </svg> -->
+                </a>
+                <!-- /logo -->
+            </div>
+
+            <!-- main nav -->
+            <nav class="collapse navbar-collapse navbar-right" role="Navigation">
+                <ul id="nav" class="nav navbar-nav navigation-menu" style="font-size:15px !important;">
+                    <li>
+                        <a data-scroll href="#body">Home</a>
+                    </li>
+                    <li>
+                        <a data-scroll href="#announce">Announcements</a>
+                    </li>
+                    <li>
+                        <a data-scroll href="#about">About Us</a>
+                    </li>
+                    <li>
+                        <a data-scroll href="#guides">Guides</a>
+                    </li>
+                    <li>
+                        <a data-scroll href="#register">Register</a>
+                    </li>
+                    <!-- <li><a data-scroll href="#teams">Teams</a></li> -->
+
+                    <li>
+                        <a data-scroll href="#trek">Treks</a>
+                    </li>
+
+                    <!-- <li><a data-scroll href="#timeline">Timeline</a></li> -->
+                    <li>
+                        <a data-scroll href="#phases123">Phases</a>
+                    </li>
+
+                    <li>
+                        <a data-scroll href="#trekD">Trek Details</a>
+                    </li>
+                    <li>
+                        <a data-scroll href="#team">Our Team</a>
+                    </li>
+                    <li>
+                        <a data-scroll href="#sponsors">Sponsors</a>
+                    </li>
+                    <!-- <li><a data-scroll href="#sponsors">Sponsors</a></li> -->
+
+                    <!-- <li><a data-scroll href="#team">Team</a></li> -->
+                    <li>
+                        <a data-scroll href="#rules">Rules</a>
+                    </li>
+                    <li>
+                        <a data-scroll href="#FAQS">FAQs</a>
+                    </li>
+                    <li>
+                        <a data-scroll href="#contact-us">Contact Us</a>
+                    </li>
+
+                    <!-- <li><a data-scroll href="#blog">Blog</a></li> -->
+                </ul>
+            </nav>
+            <!-- /main nav -->
+
+        </div>
+    </header>
+    <!--
+  End Fixed Navigation
+  ==================================== -->
+    <!-- announcements -->
+    <section class="bg-one about section" id='announce'>
+        <div class="container">
+            <div class="row">
+
+                <!-- section title -->
+                <div class="title text-center wow fadeIn" data-wow-duration="1500ms">
+                    <h2>
+                        <span class="color">Announcements</span>
+                    </h2>
+                    <div class="border"></div>
+                </div>
+                <!-- /section title -->
+
+                <!-- About item -->
+                <!-- <div class="col-md-8 text-center wow fadeInUp" data-wow-duration="500ms" >
+                <div class="block" >
+                    <div class="icon-box">
+                        <img id="tcLog1" src="images/logos/TC LOGO.png"/>
+                        <h6>TEAMClogo to be inserted<h6>
+                    </div>
+
+                    Express About Yourself
+                    <div class="content text-center"style="min-height:40vh">
+                        <h3 class="ddd">TEAMC-18</h3>
+                        <p style="font-size:1.2em">The International Conference, Towards Extensible and Adaptable Methods in Computing – TEAMC 2018, will be held during 26-28 March, 2018 under the aegis of Netaji Subhas Institute of Technology (NSIT), New Delhi. This conference will provide an excellent opportunity to researchers, practitioners and students to share ideas, discuss best practices and collaborate together to solve problems in convergent domains of computing that strive towards extensibility and adaptability.
+<br><br>
+TEAMC 2018 includes Agile Software Development, Data Management, Web Intelligence, Computing in Education and Machine Learning as its tracks.
+                    </div>
+                </div>
+            </div> -->
+                <!-- End About item -->
+
+                <!-- About item -->
+                <div class="col-md-4  text-center wow fadeInUp" data-wow-duration="500ms" data-wow-delay="250ms">
+                    <div class="block">
+                        <div class="icon-box">
+                            <!-- <i class="tf-strategy"></i> -->
+                            <img src='images/rArtboard 1@2x.png' width=100px style="margin-top:-15%" />
+
+                        </div>
+                        <h2 style="color:rgb(247, 244, 244)">.Tech Prizes</h2>
+                        <!-- Express About Yourself -->
+                        <div class="content text-center" style="color:black;min-height:40vh">
+                            <!-- <h3 style="color:black">Our Objective</h3> -->
+                            <!-- <p style="font-size:1.4em;" align="justify"> -->
+                            <ol align="left" style="font-size:19px;color:white">
+                                <li>
+                                    One team Stands a chance to win the .tech Category Prize i.e. a
+                                    <span class='color'>
+                                        Rs. 10,000 Amazon Voucher!
+
+                                    </span>
+                                </li>
+                                <br>
+                                <li>
+                                    Feature your cool hackathon project on your free
+                                    <span class='color'>
+                                        .tech domain name.
+
+                                    </span>
+                                </li>
+                                <br>
+                                <li>
+                                    Make sure to make your full
+                                    <span class="color">
+                                        .tech domain
+                                    </span> your official team name and mention the URL in an email to
+                                    <span class="color">
+                                        hackeam19@gmail.com
+                                    </span>
+                                </li>
+                            </ol>
+                            <!-- </p> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4  text-center wow fadeInUp" data-wow-duration="500ms" data-wow-delay="250ms">
+                    <div class="block" style="background-color:white">
+                        <div class="icon-box">
+                            <!-- <i class="tf-strategy"></i> -->
+                            <img src='images/logos/TC LOGO.png' width=100px style="margin-top:-15%" />
+
+                        </div>
+                        <!-- Express About Yourself -->
+                        <h3 style='color:black'>Phase 3 Guidlines</h3>
+                        <div class="content text-center" style="color:rgb(14, 14, 14);min-height:40vh">
+                            <!-- <h3 style="color:black">Our Objective</h3> -->
+                            <!-- <p style="font-size:1.2em;" align="justify"> -->
+                            <ul align='left' style="font-size:15px">
+                                <li>
+                                    Phase 3 is only for the teams selected in
+                                    <span class="color">top 12</span>.
+                                </li>
+                                <br>
+                                <li>
+                                    The last date for submission of paper is
+                                    <span class="color">
+                                        1st march 2018
+                                    </span>.
+                                </li>
+                                <br>
+                                <li>
+                                    Atleast one member of the team has to
+                                    <a target="_blank" href="https://www.imsnsit.org/imsnsit/elearn_fdpconference_new.php">
+                                        <span class="color">
+                                            register
+                                        </span>
+                                    </a> for the TEAMC conference if they wish to present their paper.
+                                </li>
+                                <br>
+                                <li>
+                                    Prizes worth
+                                    <span class="color">10k</span> for the best paper in hackathon category.
+                                </li>
+                                <br>
+                                <li>
+                                    The paper should follow
+                                    <span class="color">
+                                        CCIS one-column page format
+                                    </span>.
+                                </li>
+                                <br>
+                                <li>
+                                    For more details on guidelines
+                                    <a target="_blank" href="http://teamc18.com" class="color">click here</a>.
+                                </li>
+                                <br>
+                                <li>Papers are to be mailed at
+                                    <span class="color">
+                                        submission.hackeam@gmail.com
+                                    </span> .</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4  text-center wow fadeInUp" data-wow-duration="500ms" data-wow-delay="250ms">
+                    <div class="block">
+                        <div class="icon-box">
+                            <!-- <i class="tf-strategy"></i> -->
+                            <img src='images/HACKEAM.png' width=100px style="margin-top:-15%" />
+
+                        </div>
+                        <h3 style="color:white">Giving Back To Society</h3>
+                        <!-- Express About Yourself -->
+                        <div class="content text-center" style="color:rgb(255, 255, 255);min-height:40vh">
+                            <!-- <h3 style="color:black">Our Objective</h3> -->
+                            <p style="font-size:1em;" align="justify">
+                                After the end of the exhilarating 24hr hackathon all the teams attending came up with different and versatile products which
+                                help not only the society but tackle specific problems that they figured out in their treks.
+                                <br>
+                                <span class="color">Now it's time to give back</span>
+                                <br> We encourage all the teams to make a prototype of their solution and to actually take it
+                                into production.The prototype should be tested in the community visited and given to them.
+                                All teams who successfully, give back to society will get a certificate of appreciation.
+                                <br> Also in case you require any help feel free to contact us, as we'd love to help you in this
+                                noble cause.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- End About item -->
+
+                <!-- About item -->
+                <!-- End About item -->
+
+            </div>
+            <!-- End row -->
+        </div>
+        <!-- End container -->
+    </section>
+    <!-- End section -->
+
+
+
+
+
+    <!-- announcements end -->
+    <!--
+		Start About Section
+		==================================== -->
+    <section class="bg-one about section" id='about'>
+        <div class="container">
+            <div class="row">
+
+                <!-- section title -->
+                <div class="title text-center wow fadeIn" data-wow-duration="1500ms">
+                    <h2>About
+                        <span class="color">Us</span>
+                    </h2>
+                    <div class="border"></div>
+                </div>
+                <!-- /section title -->
+
+                <!-- About item -->
+                <!-- <div class="col-md-8 text-center wow fadeInUp" data-wow-duration="500ms">
+                    <div class="block">
+                        <div class="icon-box">
+                            <img id="tcLog1" src="images/logos/TC LOGO.png" /> -->
+                            <!-- <h6>TEAMClogo to be inserted<h6> -->
+                        <!-- </div> -->
+
+                        <!-- Express About Yourself -->
+                        <!-- <div class="content text-center" style="min-height:40vh"> -->
+                            <!-- <h3 class="ddd">TEAMC-18</h3> -->
+                            <!-- <p style="font-size:1.2em">The International Conference, Towards Extensible and Adaptable Methods in Computing – TEAMC 2018,
+                                will be held during 26-28 March, 2018 under the aegis of Netaji Subhas Institute of Technology
+                                (NSIT), New Delhi. This conference will provide an excellent opportunity to researchers,
+                                practitioners and students to share ideas, discuss best practices and collaborate together
+                                to solve problems in convergent domains of computing that strive towards extensibility and
+                                adaptability.
+                                <br>
+                                <br> TEAMC 2018 includes Agile Software Development, Data Management, Web Intelligence, Computing
+                                in Education and Machine Learning as its tracks.
+                        </div>
+                    </div>
+                </div> -->
+                <!-- End About item -->
+
+                <!-- About item -->
+                <div class="col-md-4  text-center wow fadeInUp" data-wow-duration="500ms" data-wow-delay="250ms">
+                    <div class="block" style="background:white">
+                        <div class="icon-box">
+                            <!-- <i class="tf-strategy"></i> -->
+                            <img src='images/HACKEAM.png' width=100px style="margin-top:-15%" />
+
+                        </div>
+                        <!-- Express About Yourself -->
+                        <div class="content text-center" style="color:black;min-height:40vh">
+                            <!-- <h3 style="color:black">Our Objective</h3> -->
+                            <p style="font-size:1.2em;" align="justify">The main objective of this hackathon is to sensitize students and professionals about existing
+                                problems of the under privileged and lesser developed sections of our society and providing
+                                a platform whereby they can proactively develop and showcase technological solutions for
+                                these challenges.
+                                <br> The Hackathon will be held in phases after completion of which worthy teams will get a chance
+                                to present their experience , product and report in the esteemed TEAMC conference</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- End About item -->
+
+                <!-- About item -->
+                <!-- End About item -->
+
+            </div>
+            <!-- End row -->
+        </div>
+        <!-- End container -->
+    </section>
+    <!-- End section -->
+
+    <section class="section about-2 padding-0 bg-dark" id="about">
+        <div class="container-fluid">
+            <div class="row">
+                <!-- <div class="col-md-6 padding-0 ">
+				<img class="img-responsive" src="images/different.jpg" alt="" style="height:90vh;">
+			</div> -->
+                <div class="col-md-12">
+                    <div class="content-block">
+                        <h2>We’re A Different Hackathon</h2>
+                        <p>HACKEAM, an unconventional yet efficacious hackathon, is pivotal in our mission to bolster research,
+                            development and implementation of extensible and adaptable methods of computing. The unusual
+                            hackathon will see teams preparing research papers while attempting to obtain solutions to real-world
+                            complexities. The hackathon as a whole is an all-round experience with the teams undergoing treks,
+                            interacting with stakeholders, reporting their observations, coding and designing their solutions
+                            and writing a paper.</p>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="media">
+                                    <div class="pull-left">
+                                        <i class="tf-circle-compass"></i>
+                                    </div>
+                                    <div class="media-body">
+                                        <h4 class="media-heading">Paper oriented</h4>
+                                        <p>The primary aim of the hackathon is to promote the teams in publishing and presenting
+                                            papers on their adaptable solutions. After careful consideration, selected teams
+                                            will be allowed to present their solutions to an international audience during
+                                            the actual conference and publish them in an indexed journal under ISBN.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="media">
+                                    <div class="pull-left">
+                                        <i class="tf-hotairballoon"></i>
+                                    </div>
+                                    <div class="media-body">
+                                        <h4 class="media-heading">We've got 'treks'</h4>
+                                        <p>The initial phase of the hackathon will be oriented towards a practical approach
+                                            focusing on field visits which will see the teams undergo interactive treks at
+                                            various places of interest, exploring challenges in rural development, healthcare
+                                            and educational sector.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="guides" class="bg-one section">
+        <div class="container">
+            <div class="row ">
+
+                <!-- section title -->
+                <div class="title text-center wow fadeIn" data-wow-duration="500ms">
+                    <h2>Our
+                        <span class="color">guides</span>
+                    </h2>
+                    <div class="border"></div>
+                </div>
+                <!-- /section title -->
+
+                <!-- Single Service Item -->
+
+                <article class="col-md-4 col-sm-6  col-xs-12 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="200ms">
+                    <div class="service-block text-center">
+                        <div class="service-icon text-center">
+                            <!-- <i class="tf-globe"></i> -->
+                            <img src="images/guides/naveen.jpg" alt="" style="height:20vh;">
+                        </div>
+                        <h3>Naveen Gupta</h3>
+                        <!-- <h4>Rural and Sub-urban</h4> -->
+                        <p align="justify">Naveen Gupta, M.Com, M.C.A. and M.Phil has been a mentor to countless students and teachers, helping
+                            them achieve great heights of success. Currently the head of the IT division of St. Mark's School,
+                            his students boast several prestigious awards at national and international level competitions.
+                            He is a passionate teacher and imbibes a goal-oriented and dream-driven motivation in his pupils.
+                            Recognised and appreciated for his service, he has contributed to CBSE in some very dignified
+                            positions. To encourage the exhibition of one's creations for critical evaluations, he has organised
+                            many events including National and International Tect-Fest "Geek-a-Hertz".</p>
+
+                    </div>
+                </article>
+                <article class="col-md-4 col-sm-6  col-xs-12 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="200ms">
+                    <div class="service-block text-center">
+                        <div class="service-icon text-center">
+                            <!-- <i class="tf-globe"></i> -->
+                            <img src="images/guides/manusheel.jpg" alt="" style="height:20vh;">
+                        </div>
+                        <h3>Manusheel Gupta</h3>
+                        <!-- <h4>Rural and Sub-urban</h4> -->
+                        <p align="justify">Manu Sheel Gupta is the Founder and Director of Aspiring Investments Corp and Software for Education,
+                            Entertainment and Training Activities. He has been associated with One Laptop Per Child(OLPC),
+                            working closely with governments and organisations in India, US, Paraguay and Sri Lanka. In the
+                            social profit sector, he has contributed at Harvard Business School India Trek Schoolhouse Fund
+                            Corp (India School Fund). He has also held several other key leadership and technical roles at
+                            OLPC.
+                        </p>
+
+                    </div>
+                </article>
+                <article class="col-md-4 col-sm-6  col-xs-12 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="200ms">
+                    <div class="service-block text-center">
+                        <div class="service-icon text-center">
+                            <!-- <i class="tf-globe"></i> -->
+                            <img src="images/guides/divyanshu.jpg" alt="" style="height:20vh;">
+                        </div>
+                        <h3>Divyanshu Sharma</h3>
+                        <!-- <h4>Rural and Sub-urban</h4> -->
+                        <p align="justify">Divyanshu Sharma is a junior at Netaji Subas Institute of Technology. He is an explorer and his interests
+                            lie both on business and tech side of things. By co- founding FeedMonster Media, he wanted to
+                            change how MSMEs market their services digitally. He loves building consumer products which touch
+                            the lives of common people.</p>
+
+                    </div>
+                </article>
+                <article class="col-md-3 col-sm-6  col-xs-12 wow fadeInUp" data-wow-duration="500ms">
+                    <div class="service-block text-center">
+                        <div class="service-icon text-center">
+                            <!-- <i class="tf-globe"></i> -->
+                            <img src="images/guides/aman.jpg" alt="" style="height:20vh;">
+                        </div>
+                        <h3>Aman Goyal</h3>
+                        <!-- <h4>Education</h4> -->
+                        <p align="justify">Aman Goyal presently works as a Big Data engineer in Guavus Networks. He has a dynamic professional
+                            carrier with previous associations with organizations like SAP, Shopzilla, Yes Bank , and InfoEdge.
+                            Aman is a Computer Science graduate of the 2012 batch of NSIT. He believes in continuous learning
+                            and is also an Associate Professor at EduPristine where he delivers classroom sessions on Big
+                            Data, Unix and Java. Also a sports enthusiast, he brings a unique perspective to the table.</p>
+
+                    </div>
+                </article>
+                <!-- End Single Service Item -->
+
+                <!-- Single Service Item -->
+                <article class="col-md-3 col-sm-6  col-xs-12 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="200ms">
+                    <div class="service-block text-center">
+                        <div class="service-icon text-center">
+                            <!-- <i class="tf-globe"></i> -->
+                            <img src="images/guides/mayank.jpg" alt="" style="height:20vh;">
+                        </div>
+                        <h3>Mayank Jain</h3>
+                        <!-- <h4>Rural and Sub-urban</h4> -->
+                        <p align="justify">Mayank, a gem of NSIT, is automation engineer with 5+ years of experience in technical and social
+                            economic sector. He is revolutionizing the world with a aim to improve the social aspects having
+                            worked with Global Social Economy Forum, Urban Habitat Summit, Indian Student Parliament, Indo-Afghan
+                            Future Workshop, Co-founder of MicroX Foundation which aims to fix the broken food system through
+                            sustainable livelihood creation, promoting urban farming and brings producers and consumers closer.</p>
+
+                    </div>
+                </article>
+                <article class="col-md-3 col-sm-6  col-xs-12 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="200ms">
+                    <div class="service-block text-center">
+                        <div class="service-icon text-center">
+                            <!-- <i class="tf-globe"></i> -->
+                            <img src="images/guides/mukul.jpg" alt="" style="height:20vh;">
+                        </div>
+                        <h3>Mukul Gupta</h3>
+                        <!-- <h4>Rural and Sub-urban</h4> -->
+                        <p align="justify">Mukul Gupta presently works as a Computer Scientist at Adobe Systems where he works on developing
+                            high-performance and distributed cloud based computing systems. He is a Computer Science graduate
+                            of the 2013 batch of NSIT. During his college stint, he was passionate about competitive programming
+                            and frequently featured in the Indian Top 20 of Codechef monthly contests.</p>
+
+                    </div>
+                </article>
+                <article class="col-md-3 col-sm-6  col-xs-12 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="200ms">
+                    <div class="service-block text-center">
+                        <div class="service-icon text-center">
+                            <!-- <i class="tf-globe"></i> -->
+                            <img src="images/guides/aarushi.jpeg" alt="" style="height:20vh;">
+                        </div>
+                        <h3>Aarushi Jain</h3>
+                        <!-- <h4>Rural and Sub-urban</h4> -->
+                        <p align="justify">She is a 2015 Computer Engineering graduate from NSIT. She has always been a keen learner about a
+                            big breadth of computer science topics. She had dedicated her final year project to developing
+                            an efficient model of wireless sensor network for the smart irrigation application. She has been
+                            working with Adobe Systems since the last 2.5 years. During this time she has worked on many
+                            interesting projects in Adobe's Digital Marketing and Printing Technologies domain.</p>
+
+                    </div>
+                </article>
+                <!-- End Single Service Item -->
+
+                <!-- Single Service Item -->
+                <!-- <article class="col-md-4 col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="400ms">
+                <div class="service-block text-center">
+                    <div class="service-icon text-center">
+                        <i class="tf-genius"></i>
+                    </div>
+                    <h3>Waste Management</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus. Nullam iaculis arcu at mauris dapibus consectetur.</p>
+                </div>
+            </article> -->
+                <!-- End Single Service Item -->
+
+                <!-- Single Service Item -->
+
+            </div>
+            <!-- End row -->
+        </div>
+        <!-- End container -->
+    </section>
+    <!-- End section -->
+
+    <!--
+Start Call To Action
+==================================== -->
+    <section id="register" class="call-to-action section-sm bg-1 overly">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h2>Register</h2>
+                    <p>
+                        Registeration Over!
+
+                    </p>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSckm90OwewqAXCYVRUSWplnj4Ia6PpxYjnybtN4v5uU3LXWQw/viewform" target="_blank"
+                        class="btn btn-main" disabled> Come Back Next time.</a>
+                </div>
+            </div>
+            <!-- End row -->
+        </div>
+        <!-- End container -->
+    </section>
+    <!-- End section -->
+
+    <!-- Start Services Section
+==================================== -->
+
+    <!-- teams section end -->
+    <section id="trek" class="bg-one section">
+        <div class="container">
+            <div class="row">
+
+                <!-- section title -->
+                <div class="title text-center wow fadeIn" data-wow-duration="500ms">
+                    <h2>Our
+                        <span class="color">Treks</span>
+                    </h2>
+                    <div class="border"></div>
+                </div>
+                <!-- /section title -->
+
+                <!-- Single Service Item -->
+                <article class="col-md-4 col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="500ms">
+                    <div class="service-block text-center">
+                        <div class="service-icon text-center">
+                            <i class="tf-globe"></i>
+                        </div>
+                        <h3>Rural and Sub-Urban</h3>
+                        <p>As the technology races to add more comfort and sophistication to our lifestyles, there still exist
+                            people amongst us who don't even have the basic necessities of life.As a responsible citizen
+                            of the society, lets work for the upliftment of those sections. Pay a visit to the rural areas,
+                            empathize with the problems they face and innovate to create a solution that could better the
+                            lives of many.</p>
+
+                    </div>
+                </article>
+                <!-- End Single Service Item -->
+
+                <!-- Single Service Item -->
+                <article class="col-md-4 col-sm-6  col-xs-12 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="200ms">
+                    <div class="service-block text-center">
+                        <div class="service-icon text-center">
+                            <i class="tf-ion-laptop"></i>
+                        </div>
+                        <h3>Healthcare</h3>
+                        <p>The very motive behind technology has been betterment of human life.Using the current level of advancement,
+                            let's explore the healthcare sector in India.Pay a visit to any healthcare centre and research
+                            through the possibilities as well as existing loopholes to devise solutions for uplifting the
+                            quality of healthcare services.</p>
+                    </div>
+                </article>
+                <!-- End Single Service Item -->
+
+                <!-- Single Service Item -->
+                <!-- <article class="col-md-4 col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="400ms">
+				<div class="service-block text-center">
+					<div class="service-icon text-center">
+						<i class="tf-genius"></i>
+					</div>
+					<h3>Waste Management</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus. Nullam iaculis arcu at mauris dapibus consectetur.</p>
+				</div>
+			</article> -->
+                <!-- End Single Service Item -->
+
+                <!-- Single Service Item -->
+                <article class="col-md-4  col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="200ms">
+                    <div class="service-block text-center">
+                        <div class="service-icon text-center">
+                            <i class="tf-dial"></i>
+                        </div>
+                        <h3>Education</h3>
+                        <p>Been to schools and other educational institutions throughout your life, let's take another trip
+                            down the memory lane for what we call the educational trek. Pay an institute a visit, interact
+                            and study to devise a solution to any problem you deem fit for your perusal. Give us a smart
+                            solution and triumph.</p>
+                    </div>
+                </article>
+                <!-- End Single Service Item -->
+
+                <!-- Single Service Item -->
+                <!-- <article class="col-md-4 col-md-offset-2 col-sm-6  col-xs-12 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="400ms">
+				<div class="service-block text-center">
+					<div class="service-icon text-center">
+						<i class="tf-target3"></i>
+					</div>
+					<h3>Government Offices</h3>
+                    <p>The worries of common man while dealing with the bureaucracy is well known.  From standing in really long queues to never getting files done on time,   the list is long. Pay a visit to any government office, understand its working and innovate to find solutions to these glitches.</p>
+					<p>Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus. Nullam iaculis arcu at mauris dapibus consectetur.</p>
+				</div>
+			</article> -->
+                <!-- End Single Service Item -->
+
+                <!-- Single Service Item -->
+                <!-- <article class="col-md-4 col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="600ms">
+				<div class="service-block text-center kill-margin-bottom">
+					<div class="service-icon text-center">
+						<i class="tf-lifesaver"></i>
+					</div>
+					<h3>Triposse(another trek)</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus. Nullam iaculis arcu at mauris dapibus consectetur.</p>
+				</div>
+			</article> -->
+                <!-- End Single Service Item -->
+
+            </div>
+            <!-- End row -->
+        </div>
+        <!-- End container -->
+    </section>
+    <!-- End section -->
+
+
+    <!-- Start Team Skills
+		=========================================== -->
+
+    <section id="timeline" class="parallax-section section section-bg overly">
+        <div class="container">
+            <div class="row">
+                <!-- section title -->
+                <div class="col-md-12">
+                    <div class="title text-center">
+                        <h2>The
+                            <span class="color">TimeLine</span>
+                        </h2>
+                        <div class="border"></div>
+                    </div>
+                </div>
+                <!-- /section title -->
+            </div>
+            <!-- End row -->
+            <div class="row">
+                <div class="col-md-6" style="margin-top:10vh">
+                    <h2>The Hackathon is held in phases over a period of 2 months.</h2>
+                    <p>Each phase's winners will be awarded with numerous goodies,swags and cash prizes.
+                        <br>HACKEAM will take you on an exciting journey of how actually a product is built</p>
+                    <img class="img-responsive" src="images/about/company-growth.png" alt="">
+                </div>
+                <div class="col-md-6">
+                    <ul class="skill-bar">
+                        <li>
+                            <p>
+                                <span>01-</span> Register</p>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:14%">
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <p>
+                                <span>02-</span>Experience Report with images and Text (Phase 1)</p>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:28%">
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <p>
+                                <span>03-</span>Results of Phase 1</p>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:42%">
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <p>
+                                <span>04-</span>It's time to Hack</p>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:56%">
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <p>
+                                <span>05-</span>Results of Hackathon</p>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <p>
+                                <span>06-</span>Paper Presentation at TEAMC'18</p>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:84%">
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <p>
+                                <span>07-</span>Result of Paper Presentation</p>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:98%">
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- End container -->
+    </section>
+    <!-- End section -->
+
+    <!-- Start Portfolio Section
+		=========================================== -->
+
+    <section class="portfolio section" id="phases123">
+        <div class="container">
+            <div class="row ">
+                <div class="col-lg-12">
+
+                    <!-- section title -->
+                    <div class="title text-center">
+                        <h2>
+                            <span class="color">The Phases</span>
+                        </h2>
+                        <div class="border"></div>
+                    </div>
+                    <!-- /section title -->
+                </div>
+                <!-- /end col-lg-12 -->
+            </div>
+            <!-- end row -->
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="portfolio-filter">
+                        <p style="font-size:18px;">Hackeam is a unique hackathon that proceeds through phases and leads to an international conference.
+                            As teams of multi-disciplinary talents go through these phases, they will experience the joys
+                            of visits to various places, interacting, reporting, designing, coding and paper writing. All
+                            teams wishing to participate in the hackathon must register themselves by the last date. Teams
+                            must strictly adhere to the rules as set by the organisers.
+                            <br>
+                            <br>The competition occurs in 3 phases
+                        </p>
+                        <br>
+                        <br>
+                        <button id='phase1' type="button" data-filter=".phase1" style="background-color:">Phase 1</button>
+                        <script type="text/javascript">
+                            $('#phase1').click();
+                        </script>
+                        <!-- <button type="button" data-filter=".phase1" class="mixitup-control-active">Phase 1</button> -->
+                        <a href='#phase'>
+                            <button id='phase' type="button" data-filter=".phase2">Phase 2</button>
+                            <button type="button" data-filter=".phase3">Phase 3</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row portfolio-items-wrapper">
+                <div id='ph1'>
+
+                </div>
+                <div class="mix col-md-12 phase1 text-center">
+                    <div class="portolio-block" style="margin:100px auto; margin-top:10px">
+                        <h3>PHASE 1</h3>
+                        <h3>Photograph.Interview.Analyse</h3>
+                        <h4>
+                            In this phase, the registered teams need to visit a Place of Interest (POI) which may be a rural or semi-urban area for the
+                            Rural Trek, a healthcare center for the Health Trek , a School or institution for Education Trek.
+                            Participants will document their visit using text, interviews, and photographs. The POI to be
+                            explored may or may not be one of the pre-designated areas listed by the organizers or chosen
+                            by the participants themselves.
+                        </h4>
+
+                    </div>
+                </div>
+                <!-- <div class="mix col-md-4 phase1">
+							<div class="portfolio-block">
+								<img class="img-responsive" src="images/portfolio/photograph.jpeg" alt="">
+								<div class="caption">
+
+									<a class="search-icon image-popup" data-effect="mfp-with-zoom" href="images/portfolio/portfolio-1.jpg" data-lightbox="image-1">
+										<i class="tf-ion-camera"></i>
+									</a>
+									<h4><a href="">Photograph</a></h4>
+									<p>include geotagged photos to make your journal authentic</p>
+								</div>
+							</div>
+						</div>
+						<div class="mix col-md-4 phase1">
+							<div class="portfolio-block">
+									<img class="img-responsive" src="images/portfolio/interview.jpeg" alt="">
+									<div class="caption">
+										<a class="search-icon image-popup" data-effect="mfp-with-zoom" href="images/portfolio/portfolio-2.jpg" data-lightbox="image-1">
+											<i class="fa fa-user"></i>
+										</a>
+										<h4><a href="">Interview</a></h4>
+										<p>Interview people to get to the root of their problems</p>
+									</div>
+								</div>
+						</div>
+						<div class="mix col-md-4 phase1">
+							<div class="portfolio-block">
+									<img class="img-responsive" src="images/portfolio/analyse.jpeg" alt="">
+									<div class="caption">
+										<a class="search-icon image-popup" data-effect="mfp-with-zoom" href="images/portfolio/portfolio-3.jpg" data-lightbox="image-1">
+											<i class="fa fa-line-chart"></i>
+										</a>
+										<h4><a href="">Analyse</a></h4>
+										<p>Analyse the problems that people in the Treks are facing <br> #getToTheCore</p>
+									</div>
+								</div>
+						</div> -->
+
+                <!-- phase 2 -->
+                <div class="mix col-md-12 phase2 text-center">
+                    <div class="portolio-block" style="margin:100px auto; margin-top:10px">
+                        <h3>PHASE 2</h3>
+                        <h3>Design.Develop.Code</h3>
+                        <h4>
+                            Teams will now begin the second part of their paper (Part B) that describes the system design of their proposed solution.
+                            All teams will be invited to be a part of the hackathon, HACKEAM 2018 during 10-11 February 2018.
+                            The implementation of their design will be done during the hackathon.
+                        </h4>
+                    </div>
+                </div>
+                <!-- <div class="mix col-md-4 phase2">
+                            <div class="portfolio-block">
+                                <img class="img-responsive" src="images/portfolio/design.jpeg" alt="">
+                                <div class="caption">
+
+                                    <a class="search-icon image-popup" data-effect="mfp-with-zoom" href="images/portfolio/portfolio-1.jpg" data-lightbox="image-1">
+                                        <i class="fa fa-pencil"></i>
+                                    </a>
+                                    <h4><a href="">Design</a></h4>
+                                    <p>Design a software or hardware-software solution to the problem in your journal</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mix col-md-4 phase2">
+                            <div class="portfolio-block">
+                                    <img class="img-responsive" src="images/portfolio/develop.jpg" alt="">
+                                    <div class="caption">
+                                        <a class="search-icon image-popup" data-effect="mfp-with-zoom" href="images/portfolio/portfolio-2.jpg" data-lightbox="image-1">
+                                            <i class="tf-ion-laptop"></i>
+                                        </a>
+                                        <h4><a href="">Develop</a></h4>
+                                        <p>Develop on the design in the time between submission and onsite hackathon</p>
+                                    </div>
+                                </div>
+                        </div>
+                        <div class="mix col-md-4 phase2">
+                            <div class="portfolio-block">
+                                    <img class="img-responsive" src="images/portfolio/code.jpeg" alt="">
+                                    <div class="caption">
+                                        <a class="search-icon image-popup" data-effect="mfp-with-zoom" href="images/portfolio/portfolio-3.jpg" data-lightbox="image-1">
+                                            <i class="tf-ion-code"></i>
+                                        </a>
+                                        <h4><a href="">Code</a></h4>
+                                        <p>Finally code your solution to get to the top <br>#EatSleepCodeRepeat </p>
+                                    </div>
+                                </div>
+                        </div> -->
+                <!-- phase 2 -->
+                <div class="mix col-md-12 phase3 text-center">
+                    <div class="portolio-block" style="margin:100px auto; margin-top:10px">
+                        <h3>PHASE 3</h3>
+                        <h3>Experiment.Conclude.Present</h3>
+                        <h4>
+                            Teams will get an excellent opportunity to case their work in the prestigious International Conference TEAMC 2018 during
+                            March 26-28, 2018 (
+                            <a href="https://www.teamc18.com">www.teamc18.com</a>) at NSIT, in front of an international audience of researchers, industry
+                            leaders and government officials. Efforts will be made to carry forward potentially promising
+                            submissions so that they can be fully developed into working prototypes and products with the
+                            assistance of incubation center.
+                            <br>
+                            <br> Teams need to complete Part B of their paper by adding experimental results and conclusion and
+                            submit the final paper comprising both Part A and Part B, by 28 Feb, 2018. The total length of
+                            the paper should not exceed 14 pages. At least one member of each team will have to register
+                            for TEAMC 2018 if they wish to present their paper.
+                            <br>
+                            <br> The paper submissions will be reviewed and selected papers will be invited to present their
+                            papers. They will be published in an indexed Journal with ISBN. The best paper will be given
+                            the
+                            <span class='color'>Best Paper Award</span> in Hackathon category.
+                        </h4>
+                    </div>
+                </div>
+                <!-- <div class="mix col-md-4 phase3">
+                            <div class="portfolio-block">
+                                <img class="img-responsive" src="images/portfolio/experiment.jpg" alt="">
+                                <div class="caption">
+
+                                    <a class="search-icon image-popup" data-effect="mfp-with-zoom" href="images/portfolio/portfolio-1.jpg" data-lightbox="image-1">
+                                        <i class="fa fa-flask"></i>
+                                    </a>
+                                    <h4><a href="">Experiment</a></h4>
+                                    <p>Experiment on your solution , find bugs ,beta test it.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mix col-md-4 phase3">
+                            <div class="portfolio-block">
+                                    <img class="img-responsive" src="images/portfolio/conclude.jpeg" alt="">
+                                    <div class="caption">
+                                        <a class="search-icon image-popup" data-effect="mfp-with-zoom" href="images/portfolio/portfolio-2.jpg" data-lightbox="image-1">
+                                            <i class="fa fa-check"></i>
+                                        </a>
+                                        <h4><a href="">Conclude</a></h4>
+                                        <p>Add a conclusion in you paper on the feasibilty, usefullness, design of product</p>
+                                    </div>
+                                </div>
+                        </div>
+                        <div class="mix col-md-4 phase3">
+                            <div class="portfolio-block">
+                                    <img class="img-responsive" src="images/portfolio/present.jpeg" alt="">
+                                    <div class="caption">
+                                        <a class="search-icon image-popup" data-effect="mfp-with-zoom" href="images/portfolio/portfolio-3.jpg" data-lightbox="image-1">
+                                            <i class="fa fa-microphone"></i>
+                                        </a>
+                                        <h4><a href="">Present</a></h4>
+                                        <p>Get a Chance to present it at TEAMC 2018</p>
+                                    </div>
+                                </div>
+                            </div>
+    				</div> -->
+
+
+
+            </div>
+            <!-- end container -->
+    </section>
+    <!-- End section -->
+    <div class="row ">
+        <div class="col-lg-12">
+
+            <!-- section title -->
+            <div class="title text-center" style="padding-bottom:0">
+                <h2>
+                    <span class="color">Treks Undergone</span>
+                </h2>
+                <div class="border"></div>
+                <h3>hover to find more</h3>
+            </div>
+            <!-- /section title -->
+        </div>
+        <!-- /end col-lg-12 -->
+    </div>
+    <!-- end row -->
+    <div style="overflow-x:auto; padding:50px 0;">
+        <div class="" style="width:2200px;background-color:#353b43;padding:50px;height:inherit">
+            <div class="mix phase3" style="width:400px;display:inline-block">
+                <div class="portfolio-block">
+                    <img class="img-responsive" src="images/backgroundtrek/AFMC.jpeg" alt="">
+                    <div class="caption">
+
+                        <!-- <a class="search-icon image-popup" data-effect="mfp-with-zoom" href="images/portfolio/portfolio-1.jpg" data-lightbox="image-1">
+                        <i class="fa fa-flask"></i>
+                    </a> -->
+                        <h4>
+                            <a href="">GTB Hospital</a>
+                        </h4>
+                        <p>Reboot Rebels</p>
+                    </div>
+                </div>
+            </div>
+            <div class="mix phase3" style="width:400px;display:inline-block">
+                <div class="portfolio-block">
+                    <img class="img-responsive" src="images/backgroundtrek/kakrola.jpeg" alt="">
+                    <div class="caption">
+
+                        <!-- <a class="search-icon image-popup" data-effect="mfp-with-zoom" href="images/portfolio/portfolio-1.jpg" data-lightbox="image-1">
+                        <i class="fa fa-flask"></i>
+                    </a> -->
+                        <h4>
+                            <a href="">Kakrola Rural Trek</a>
+                        </h4>
+                        <p>The Rising Coders</p>
+                    </div>
+                </div>
+            </div>
+            <div class="mix phase3" style="width:400px;display:inline-block">
+                <div class="portfolio-block">
+                    <img class="img-responsive" src="images/backgroundtrek/ladyHarding.jpeg" alt="">
+                    <div class="caption">
+
+                        <!-- <a class="search-icon image-popup" data-effect="mfp-with-zoom" href="images/portfolio/portfolio-1.jpg" data-lightbox="image-1">
+                        <i class="fa fa-flask"></i>
+                    </a> -->
+                        <h4>
+                            <a href="">Max Super Specialty Hospital</a>
+                        </h4>
+                        <p>CodePunks</p>
+                    </div>
+                </div>
+            </div>
+            <div class="mix phase3" style="width:400px;display:inline-block">
+                <div class="portfolio-block">
+                    <img class="img-responsive" src="images/backgroundtrek/qutubgarh.jpeg" alt="">
+                    <div class="caption">
+
+                        <!-- <a class="search-icon image-popup" data-effect="mfp-with-zoom" href="images/portfolio/portfolio-1.jpg" data-lightbox="image-1">
+                        <i class="fa fa-flask"></i>
+                    </a> -->
+                        <h4>
+                            <a href="">QutubGarh</a>
+                        </h4>
+                        <p>Kodikas Kataigida</p>
+                    </div>
+                </div>
+            </div>
+            <div class="mix phase3" style="width:400px;display:inline-block">
+                <div class="portfolio-block">
+                    <img class="img-responsive" src="images/backgroundtrek/stmarks.jpeg" alt="">
+                    <div class="caption">
+
+                        <!-- <a class="search-icon image-popup" data-effect="mfp-with-zoom" href="images/portfolio/portfolio-1.jpg" data-lightbox="image-1">
+                        <i class="fa fa-flask"></i>
+                    </a> -->
+                        <h4>
+                            <a href="">St Marks</a>
+                        </h4>
+                        <p>MINDA,Titans,Eulers,Zap!</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <section id="trekD" class="pricing section">
+        <div class="container">
+            <div class="row">
+
+                <!-- section title -->
+                <div class="title text-center wow fadeInDown" data-wow-duration="500ms">
+                    <h2>Trek Details and
+                        <span class="color">Guides</span>
+                    </h2>
+                    <div class="border"></div>
+                </div>
+                <!-- /section title -->
+
+                <!-- single pricing table -->
+                <div class="col-md-4 col-sm-6 col-md-offset-1 col-xs-12 text-center wow fadeInUp" data-wow-duration="200ms">
+                    <div class="price-item">
+
+                        <!-- plan name & value -->
+                        <div class="price-title">
+                            <h3>Delhi/Haryana</h3>
+                            <p class="value">rural visit</p>
+                        </div>
+                        <!-- /plan name & value -->
+
+                        <!-- plan description -->
+                        <ul>
+                            <li>Rural trek</li>
+                            <!-- <li>Mayanak Jain</li> -->
+                            <li>For details contact:</li>
+                            <li>Anirudh Kumar: +91 98180 59361</li>
+                            <!-- <li>10 GB Bandwidth</li> -->
+                            <!-- <li>24/7 Tech Support</li> -->
+                        </ul>
+                        <!-- /plan description -->
+
+                        <!-- signup button -->
+                        <!-- <a class="btn btn-transparent" href="#"></a> -->
+                        <!-- /signup button -->
+
+                    </div>
+                </div>
+                <!-- end single pricing table -->
+
+                <!-- single pricing table -->
+                <div class="col-md-4 col-md-offset-2 col-sm-6 col-xs-12 text-center wow fadeInUp" data-wow-duration="500ms" data-wow-delay="400ms">
+                    <div class="price-item">
+
+                        <!-- plan name & value -->
+                        <div class="price-title">
+                            <h3>St. Mark's
+                                <br>Sr. Secondary School</h3>
+                            <p class="value">meera bagh</p>
+                        </div>
+                        <!-- /plan name & value -->
+
+                        <!-- plan description -->
+                        <ul>
+                            <li>Education trek</li>
+                            <li>For details contact</li>
+                            <li>Aaina : +91 81309 04947</li>
+                            <!-- <li>1 GB Storage</li>
+                                <li>10 GB Bandwidth</li>
+                                <li>24/7 Tech Support</li> -->
+                        </ul>
+                        <!-- /plan description -->
+
+                        <!-- signup button -->
+                        <!-- <a class="btn btn-transparent" href="#">Signup</a> -->
+                        <!-- /signup button -->
+
+                    </div>
+                </div>
+                <!-- end single pricing table -->
+
+                <!-- single pricing table -->
+                <!-- end single pricing table -->
+
+                <!-- single pricing table -->
+
+                <!-- end single pricing table -->
+
+
+            </div>
+            <!-- End row -->
+
+
+        </div>
+        <!-- End container -->
+    </section>
+    <!-- End section -->
+
+
+
+    <!--
+Start Counter Section
+==================================== -->
+
+    <!-- <section id="counter" class="parallax-section bg-1 section overly">
+	<div class="container">
+		<div class="row">
+
+			<div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInDown" data-wow-duration="500ms">
+				<div class="counters-item">
+					<i class="tf-ion-android-happy"></i>
+					<span data-speed="3000" data-to="320">320</span>
+					<h3>Happy Clients</h3>
+				</div>
+			</div>
+
+
+		</div>
+    </div>
+</section>  -->
+    <!-- Start Pricing section
+		=========================================== -->
+    <!--
+		<section id="sponsors" class="pricing section">
+			<div class="container">
+				<div class="row <text-center></text-center>">
+
+					section title
+				    <div class="title text-center wow fadeInDown" data-wow-duration="500ms">
+			        	<h2>Our<span class="color"> Sponsors</span></h2>
+				        <div class="border"></div>
+				    </div>
+                    <img src="./images/comingsoon.png" alt="" class="img-responsive" style="margin:50px auto">
+				    /section title
+                        <h1>COMING SOON</h1>
+					single pricing table
+					end single pricing table
+
+
+				</div>  	</div>
+		</section>    -->
+
+    <!--
+Start Our Team
+=========================================== -->
+
+    <section id="team" class="section">
+        <div class="container">
+            <div class="row">
+
+                <!-- section title -->
+                <div class="title text-center wow fadeInUp" data-wow-duration="500ms">
+                    <h2>Our
+                        <span class="color">Team</span>
+                    </h2>
+                    <div class="border"></div>
+                </div>
+                <!-- /section title -->
+
+                <!-- team member -->
+                <div class="col-md-4 col-md-offset-4  col-sm-6 col-xs-12  wow fadeInDown text-center" data-wow-duration="500ms" style="margin-right:33.33333%">
+                    <div class="team-member">
+                        <div class="member-photo">
+                            <!-- member photo -->
+                            <img class="img-responsive" src="images/team/Shampa Ma_am.png" alt="Meghna" style="margin:0 auto;width:120%">
+                            <!-- /member photo -->
+
+                            <!-- member social profile -->
+                            <div class="mask">
+                                <ul class="list-inline">
+                                    <li>
+                                        <a href="https://www.facebook.com/shampa.chakraverty">
+                                            <i class="tf-ion-social-facebook"></i>
+                                        </a>
+                                    </li>
+                                    <!-- <li><a href="#"><i class="tf-ion-social-twitter"></i></a></li> -->
+                                    <li>
+                                        <a href="https://www.linkedin.com/in/shampa-chakraverty-b6ab8910">
+                                            <i class="tf-ion-social-linkedin"></i>
+                                        </a>
+                                    </li>
+                                    <!-- <li><a href="#"><i class="tf-ion-social-dribbble-outline"></i></a></li> -->
+                                </ul>
+                            </div>
+                            <!-- /member social profile -->
+                        </div>
+
+                        <!-- member name & designation -->
+                        <div class="member-meta">
+
+                            <h4>Dr. Shampa Chakraverty</h4>
+                            <span>General Chair</span>
+                            <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.</p> -->
+                        </div>
+                        <!-- /member name & designation -->
+                        <!-- /about member -->
+
+                    </div>
+                </div>
+                <!-- end team member -->
+
+                <!-- team member -->
+                <div class="col-md-3 col-md-offest-4 col-sm-6 col-xs-12  wow fadeInDown" data-wow-duration="500ms">
+                    <div class="team-member">
+                        <div class="member-photo">
+                            <!-- member photo -->
+                            <img class="img-responsive" src="images/team/Aishanya.png" alt="Meghna">
+                            <!-- /member photo -->
+
+                            <!-- member social profile -->
+                            <div class="mask">
+                                <ul class="list-inline">
+                                    <li>
+                                        <a href="https://www.facebook.com/aishanya.singh.75">
+                                            <i class="tf-ion-social-facebook"></i>
+                                        </a>
+                                    </li>
+                                    <!-- <li><a href="#"><i class="tf-ion-social-twitter"></i></a></li> -->
+                                    <li>
+                                        <a href="https://www.linkedin.com/in/aishanya-singh-2b7632136">
+                                            <i class="tf-ion-social-linkedin"></i>
+                                        </a>
+                                    </li>
+                                    <!-- <li><a href="#"><i class="tf-ion-social-dribbble-outline"></i></a></li> -->
+                                </ul>
+                            </div>
+                            <!-- /member social profile -->
+                        </div>
+
+                        <!-- member name & designation -->
+                        <div class="member-meta">
+                            <h4>Aishanya Singh</h4>
+                            <span>Executive Member</span>
+                            <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.</p> -->
+                        </div>
+                        <!-- /member name & designation -->
+                        <!-- /about member -->
+
+                    </div>
+                </div>
+                <!-- end team member -->
+
+                <!-- team member -->
+                <div class="col-md-3 col-sm-6 col-xs-12 wow fadeInDown" data-wow-duration="500ms" data-wow-delay="200ms">
+                    <div class="team-member">
+                        <div class="member-photo">
+                            <!-- member photo -->
+                            <img class="img-responsive" src="images/team/Pratyush.png" alt="Meghna">
+                            <!-- /member photo -->
+
+                            <!-- member social profile -->
+                            <div class="mask">
+                                <ul class="list-inline">
+                                    <li>
+                                        <a href="https://www.facebook.com/pratyush.goel.71">
+                                            <i class="tf-ion-social-facebook"></i>
+                                        </a>
+                                    </li>
+                                    <!-- <li><a href="#"><i class="tf-ion-social-twitter"></i></a></li> -->
+                                    <li>
+                                        <a href="https://www.linkedin.com/in/pratyush-goel-248633136">
+                                            <i class="tf-ion-social-linkedin"></i>
+                                        </a>
+                                    </li>
+                                    <!-- <li><a href="#"><i class="tf-ion-social-dribbble-outline"></i></a></li> -->
+                                </ul>
+                            </div>
+                            <!-- /member social profile -->
+                        </div>
+
+                        <!-- member name & designation -->
+                        <div class="member-meta">
+                            <h4>Pratyush Goel</h4>
+                            <span>Executive Member</span>
+                            <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.</p> -->
+                        </div>
+                        <!-- /member name & designation -->
+                        <!-- /about member -->
+                    </div>
+                </div>
+                <!-- end team member -->
+
+                <!-- team member -->
+                <div class="col-md-3 col-sm-6 col-xs-12 wow fadeInDown" data-wow-duration="500ms" data-wow-delay="400ms">
+                    <div class="team-member">
+                        <div class="member-photo">
+                            <!-- member photo -->
+                            <img class="img-responsive" src="images/team/Shubham.png" alt="Meghna">
+                            <!-- /member photo -->
+
+                            <!-- member social profile -->
+                            <div class="mask">
+                                <ul class="list-inline">
+                                    <li>
+                                        <a href="https://www.facebook.com/profile.php?id=100001390397235">
+                                            <i class="tf-ion-social-facebook"></i>
+                                        </a>
+                                    </li>
+                                    <!-- <li><a href="#"><i class="tf-ion-social-twitter"></i></a></li> -->
+                                    <li>
+                                        <a href="https://www.linkedin.com/in/shubham-singh-a3755111b">
+                                            <i class="tf-ion-social-linkedin"></i>
+                                        </a>
+                                    </li>
+                                    <!-- <li><a href="#"><i class="tf-ion-social-dribbble-outline"></i></a></li> -->
+                                </ul>
+                            </div>
+                            <!-- /member social profile -->
+                        </div>
+
+                        <!-- member name & designation -->
+                        <div class="member-meta">
+                            <h4>Shubham Singh</h4>
+                            <span>Executive Member</span>
+                            <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.</p> -->
+                        </div>
+                        <!-- /member name & designation -->
+                        <!-- /about member -->
+                    </div>
+                </div>
+                <!-- end team member -->
+
+                <!-- team member -->
+                <div class="col-md-3 col-sm-6 col-xs-12 wow fadeInDown" data-wow-duration="500ms" data-wow-delay="600ms">
+                    <div class="team-member">
+                        <div class="member-photo">
+                            <!-- member photo -->
+                            <img class="img-responsive" src="images/team/Raghav.png" alt="Meghna">
+                            <!-- /member photo -->
+
+                            <!-- member social profile -->
+                            <div class="mask">
+                                <ul class="list-inline">
+                                    <li>
+                                        <a href="https://www.facebook.com/raghav.kumar.12914216">
+                                            <i class="tf-ion-social-facebook"></i>
+                                        </a>
+                                    </li>
+                                    <!-- <li><a href="#"><i class="tf-ion-social-twitter"></i></a></li> -->
+                                    <li>
+                                        <a href="https://www.linkedin.com/in/raghav-kumar-79b002135">
+                                            <i class="tf-ion-social-linkedin"></i>
+                                        </a>
+                                    </li>
+                                    <!-- <li><a href="#"><i class="tf-ion-social-dribbble-outline"></i></a></li> -->
+                                </ul>
+                            </div>
+                            <!-- /member social profile -->
+                        </div>
+
+                        <!-- member name & designation -->
+                        <div class="member-meta">
+                            <h4>Raghav Kumar</h4>
+                            <span>Executive Member</span>
+                            <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.</p> -->
+                        </div>
+                        <!-- /member name & designation -->
+                        <!-- /about member -->
+                    </div>
+                </div>
+                <!-- end team member -->
+
+            </div>
+            <!-- End row -->
+        </div>
+        <!-- End container -->
+    </section>
+    <!-- End section -->
+
+    <section id="sponsors" class="parallax-section section section-bg overly">
+        <div class="container">
+            <div class="row">
+                <!-- section title -->
+                <div class="col-md-12">
+                    <div class="title text-center">
+                        <h2>Our
+                            <span class="color">Sponsors</span>
+                        </h2>
+                        <div class="border"></div>
+                    </div>
+                </div>
+                <!-- /section title -->
+            </div>
+
+            <div class="row">
+                <div class="col-md-4 col-xs-12">
+                    <p>&nbsp;
+                    </p>
+
+                    <p>&nbsp;
+                    </p>
+
+                    <p>&nbsp;
+                    </p>
+                    <a href="https://developer.amazon.com/alexa-skills-kit/alexa-skills-developer-training">
+                        <img class="img-responsive" src="images/Amazon_Alexa_Horizontal_RGB_White-Color.png" alt="">
+                    </a>
+                </div>
+
+                <div class="col-md-4 col-xs-12">
+                    <p>&nbsp;
+                    </p>
+                    <a href="http://get.tech/">
+                        <img class="img-responsive" src="images/rArtboard 1@2x.png" alt="">
+                    </a>
+                </div>
+
+                <div class="col-md-4 col-xs-12">
+                    <p>&nbsp;
+                    </p>
+                    <a href="https://www.jetbrains.com/">
+                        <img class="img-responsive" src="images/jetbrains-variant-4.png" alt="">
+                    </a>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4 col-xs-12 text-center">
+                    <p>&nbsp;
+                    </p>
+                    <p>&nbsp;
+                    </p>
+                    <a href="https://skillenza.com/">
+                        <img class="img-responsive" src="images/skillenza transparent.png" alt="">
+                    </a>
+                </div>
+
+                <div class="col-md-4 col-xs-12 text-center">
+                    <p>&nbsp;
+                    </p>
+                    <p>&nbsp;
+                    </p>
+                    <a href="https://education.github.com/">
+                        <img class="img-responsive" src="images/GitHub_Logo_White.png" alt="">
+                    </a>
+                </div>
+
+                <div class="text-center col-md-4 col-xs-12 text-center">
+                    <p>&nbsp;
+                    </p>
+                    <a href="https://temboo.com/">
+                        <img class="img-responsive" src="images/temboo-logo-white.png" alt="">
+                    </a>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4 col-xs-12 text-center">
+                    <p>&nbsp;
+                    </p>
+                    <a href="">
+                        <img class="img-responsive" src="images/Background (1).png" alt="">
+                    </a>
+                </div>
+                <div class="col-md-4 col-xs-12 text-center">
+                    <p>&nbsp;
+                    </p>
+                    <p>&nbsp;
+                    </p>
+                    <a href="https://www.geeksforgeeks.org/">
+                        <img class="img-responsive" src="images/gfg1.png" alt="">
+                    </a>
+                </div>
+
+                <div class="col-md-4 col-xs-12 text-center">
+                    <p>&nbsp;
+                    </p>
+                    <p>&nbsp;
+                    </p>
+                    <a href="https://www.sketchapp.com/">
+                        <img class="img-responsive" src="images/sketch-logo-dark-transparent@2x.png" alt="">
+                    </a>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-xs-12 text-center">
+                    <a href="https://ubidots.com/">
+                        <img class="img-responsive" src="images/logo-ubidots.png">
+                    </a>
+                </div>
+                <div class="col-md-4 col-xs-12 text-center">
+                    <p>&nbsp;
+                    </p>
+                    <a href="http://www.wolfram.com/hackathons/">
+                        <img class="img-responsive" src="images/Hackathon Logo Wolfram 2018 Vector.png">
+                    </a>
+                </div>
+                <div class="col-md-4 col-xs-12 text-center">
+                    <p>&nbsp;
+                    </p>
+                    <a href="http://www.johnsnowlabs.com/">
+                        <img class="img-responsive text-center center" src="images/john-snow-labs-logo.png">
+                    </a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-xs-12 text-center">
+                    <p>&nbsp;
+                    </p>
+
+                    <a href="http://www.hackerearth.com/">
+                        <img class="img-responsive" src="images/HE_logo.png" />
+                    </a>
+
+                </div>
+            </div>
+
+            <!-- End row -->
+        </div>
+        <!-- End container -->
+    </section>
+    <!-- End section -->
+
+
+
+
+    <!-- Start Testimonial
+		=========================================== -->
+
+    <section id="rules" class="testimonial overly section bg-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 " style="margin-top:-5%">
+                    <!-- testimonial wrapper -->
+                    <div class="text-center">
+
+                        <h1>
+                            <span class="color">Rules and Regulations</span>
+                            </h2>
+                    </div>
+
+
+                    <div id="testimonials" class="wow fadeInUp" data-wow-duration="500ms" data-wow-delay="100ms">
+
+                        <!-- testimonial single -->
+                        <ul>
+
+                            <li>
+                                <div class="item ">
+                                    <h3>1. Teams must register before the last date
+                                        <span class="color">10th Jan, 2018 </span>. The date will not be extended under any circumstances. </h3>
+                                </div>
+                                <div class="item  ">
+                                    <h3>2. A team must comprise of at least 2 and a maximum of 4 members. </h3>
+                                </div>
+                                <div class="item  ">
+                                    <h3>3. Teams must strictly adhere to the registration rules set by the organisers violation
+                                        of which will lead to cancellation of registration. </h3>
+                                </div>
+                                <div class="item  ">
+                                    <h3>4. A team can enroll for any one trek. The place of interest of treks may be chosen by
+                                        participants themselves but should belong to any one of the mentioned treks.</h3>
+                                </div>
+                                <div class="item  ">
+                                    <h3>5. Documentation guidelines must strictly be followed. For more details, visit
+                                        <a href="https://www.teamc18.com">www.teamc18.com.</a>
+                                    </h3>
+                                </div>
+                                <div class="item  ">
+                                    <h3>6. Plagiarism or submission of copyrighted content or content containing viruses or disabling
+                                        devices or harmful codes is strictly prohibited.
+                                    </h3>
+                                </div>
+                                <div class="item  ">
+                                    <h3>7. Teams will begin the second part of paper, part B ( for more details, visit
+                                        <a href="https://www.teamc18.com">www.teamc18.com.</a>) , and will be invited to be a part of HACKEAM 2018 during 10-11th
+                                        February. </h3>
+                                </div>
+                                <div class="item  ">
+                                    <h3>8. Last date for completion and submission of paper(both part A and part B) is 28th Feb,
+                                        2018. Late entries will not be entertained. </h3>
+                                </div>
+
+                                <div class="item  ">
+                                    <h3>9. Atleast one member of each team selected for paper presentation will have to register
+                                        for TeamC 2018 to be eligible to present their paper. </h3>
+                                </div>
+
+                            </li>
+                        </ul>
+                        <!-- /testimonial single -->
+
+
+                    </div>
+
+                    <div class="text-center">
+
+                        <h1>
+                            <span class="color">Instructions for Writing Report</span>
+                            </h2>
+                    </div>
+                    <div id="testimonials" class="wow fadeInUp" data-wow-duration="500ms" data-wow-delay="100ms">
+
+                        <!-- testimonial single -->
+                        <ul>
+
+                            <li>
+                                <div class="item ">
+                                    <h3> Phase 1 ends with you submitting a final report of your research work compiled after
+                                        your team trek. The format for the above mentioned follows :</h3>
+                                </div>
+                                <div class="item  ">
+                                    <h3>The report should be 4-5 pages, single column, 11 font, single-spaced, with figs, tables,
+                                        graphics, trek photographs.</h3>
+                                </div>
+                                <div class="item  ">
+                                    <h3> The sequence of content to be written in your report should be as listed below -</h3>
+                                </div>
+                                <div class="item  ">
+                                    <h3>1. Title and authors</h3>
+                                </div>
+                                <div class="item  ">
+                                    <h3>2. Abstract</h3>
+                                </div>
+                                <div class="item  ">
+                                    <h3>3. Introduction and motivation
+                                    </h3>
+                                </div>
+                                <div class="item  ">
+                                    <h3>4. Background: Describe the context including the place visited, the socio-cultural and
+                                        economic ecosystem of that place.</h3>
+                                </div>
+                                <div class="item  ">
+                                    <h3>5. Experiences of the interaction</h3>
+                                </div>
+
+                                <div class="item  ">
+                                    <h3>6. Questionnaire if any and it's analysis - for example, an analysis of psychometric
+                                        questions measured on a Likert scale.</h3>
+                                </div>
+                                <div class="item  ">
+                                    <h3>7. Problem identified</h3>
+                                </div>
+                                <div class="item  ">
+                                    <h3>PAPER SUBMISSION FOR PHASE 1 :</h3>
+                                </div>
+                                <div class="item  ">
+                                    <h3> You will be required to mail the above-mentioned report in *PDF *format to submission.hackeam@gmail.com.
+                                        The subject of the mail should be "HACKEAM- REPORT (PHASE 1)". The mail should include
+                                        the team details (Team Name, Team captain, Trek Details(Name, Place, Date), Contact
+                                        details). You will be updated with all other information as soon as the treks have
+                                        ended and all teams have submitted their journals i.e. after 27th January 2018(deadline
+                                        for submission of photo journals).</h3>
+                                </div>
+
+                                <!-- client photo -->
+                                <!-- <div class="client-thumb">
+							<img src="images/team/client-1.jpg" class="img-responsive" alt="Meghna">
+						</div>
+						/client photo
+
+						client info
+						<div class="client-info">
+							<div class="client-meta">
+								<h3>Jonathon Andrew</h3>
+								<span>Dec 26, 2018</span>
+							</div>
+							<div class="client-comment">
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium minima ex, quia error, deserunt voluptatibus repellendus? Incidunt eligendi aliquam repellat molestias, vel sed optio rem odit quis ratione non consequuntur!</p>
+							</div>
+						</div> -->
+                                <!-- /client info -->
+                            </li>
+                        </ul>
+                        <!-- /testimonial single -->
+
+
+                    </div>
+                    <!-- end testimonial wrapper -->
+                </div>
+                <!-- end col lg 12 -->
+            </div>
+            <!-- End row -->
+        </div>
+        <!-- End container -->
+    </section>
+    <!-- End Section -->
+
+
+    <!--
+Start Blog Section
+=========================================== -->
+
+    <section id="FAQS" class="page-section light overly section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 pull-left">
+                    <h1 class="section-title">
+                        <span class="icon-inner wow animated fadeIn">
+                            <span class="fa-stack">
+                                <i class="fa rhex fa-stack-2x"></i>
+                                <i class="fa fa-question fa-stack-1x"></i>
+                            </span>
+                        </span>
+                        <span class="title-inner wow animated fadeInRight animated title">
+                            <h2 style="display: inline;">FA
+                                <span class="color">Q</span>
+                            </h2>s</span>
+                    </h1>
+                </div>
+                <div class="col-md-4 text-right-md pull-right">
+                </div>
+            </div>
+            <div class="row faq margin-top wow animated fadeInUp">
+                <div class="col-sm-6 col-md-6 pull-left">
+                    <ul id="tabs-faq" class="nav">
+                        <li class="active">
+                            <a href="#tab-faq1" data-toggle="tab">
+                                <i class="fa fa-angle-right"></i>
+                                <span class="faq-inner">How big can my team be?</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#tab-faq2" data-toggle="tab">
+                                <i class="fa fa-plus"></i>
+                                <span class="faq-inner">Can I participate?</span>
+                            </a>
+                        </li>
+                        <!-- <li><a href="#tab-faq3" data-toggle="tab"><i class="fa fa-plus"></i> <span class="faq-inner">Who can participate?</span></a></li> -->
+                        <li>
+                            <a href="#tab-faq4" data-toggle="tab">
+                                <i class="fa fa-plus"></i>
+                                <span class="faq-inner">Will TeamC reimburse me for my expenses?</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#tab-faq5" data-toggle="tab">
+                                <i class="fa fa-plus"></i>
+                                <span class="faq-inner">Does the Hackathon offer accommodation?</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#tab-faq6" data-toggle="tab">
+                                <i class="fa fa-plus"></i>
+                                <span class="faq-inner">Is there a charge to participate?</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#tab-faq7" data-toggle="tab">
+                                <i class="fa fa-plus"></i>
+                                <span class="faq-inner">What is a trek?</span>
+                            </a>
+                        </li>
+                        <!-- <li><a href="#tab-faq5" data-toggle="tab"><i class="fa fa-plus"></i> <span class="faq-inner">Will be there be food and sleeping facilities on the day of the Hackathon?</span></a></li> -->
+                        <!-- <li><a href="#tab-faq8" data-toggle="tab"><i class="fa fa-plus"></i> <span class="faq-inner">What should I bring to the onsite hackathon?</span></a></li> -->
+                        <li>
+                            <a href="#tab-faq9" data-toggle="tab">
+                                <i class="fa fa-plus"></i>
+                                <span class="faq-inner">Who owns my project and IP Rights?</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#tab-faq10" data-toggle="tab">
+                                <i class="fa fa-plus"></i>
+                                <span class="faq-inner">I have another question?</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-6 col-md-6 pull-right">
+                    <div class="tab-content">
+                        <div id="tab-faq1" class="tab-pane fade in active">
+                            <div>
+                                <p>Every team must consist of a minimum of
+                                    <strong>
+                                        two
+                                    </strong>
+                                    members and a maximum of
+                                    <strong>four</strong> members</p>
+                            </div>
+                        </div>
+                        <div id="tab-faq2" class="tab-pane fade">
+                            <div>
+                                <p>
+                                    All students studying in graduation or post graduation institutions are eligible to participate in the Hackathon. The only
+                                    eligibility criteria is that the participant must love solving problems.
+                                </p>
+                            </div>
+                        </div>
+                        <div id="tab-faq4" class="tab-pane fade">
+                            <div>
+
+                                <p>
+                                    No, TeamC offers no kind of reimbursement for any expenses.
+                                </p>
+                            </div>
+                        </div>
+                        <div id="tab-faq5" class="tab-pane fade">
+                            <div>
+                                <p>
+                                    No, we do not offer any services for accommodation. We can certainly recommend some hotels near the campus for easier logistics.</p>
+                            </div>
+                        </div>
+                        <div id="tab-faq6" class="tab-pane fade">
+                            <div>
+                                <p>
+                                    No. You do not have to pay anything to anyone to register yourself for Hackeam.
+                                </p>
+                            </div>
+                        </div>
+                        <div id="tab-faq7" class="tab-pane fade">
+                            <div>
+                                <p>
+                                    The participant needs to visit a government office, school or a hospital or any of the mentioned places to analyse and journalise
+                                    a problem. This visit is termed as treks.
+                                </p>
+                            </div>
+                        </div>
+                        <div id="tab-faq9" class="tab-pane fade">
+                            <div>
+                                <p>
+                                    The team that develops the project is the owner of the project and IP. We do encourage sharing of code with others in the
+                                    community or making code open source but it is not required to participate in the event.
+                            </div>
+                        </div>
+                        <div id="tab-faq10" class="tab-pane fade">
+                            <div>
+                                <p>
+
+                                    Have a question that isn’t mentioned here? Email us at
+                                    <span class="color">
+                                        <a style="color: black" href='mailto:teamc.hackeam2018@gmail.com'>teamc.hackeam2018@gmail.com</a>
+                                    </span>. </p>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Srart Contact Us
+=========================================== -->
+    <section id="contact-us" class="contact-us section-bg">
+        <div class="container">
+            <div class="row">
+
+                <!-- section title -->
+                <div class="title text-center wow fadeIn" data-wow-duration="500ms">
+                    <h2>Get In
+                        <span class="color">Touch</span>
+                    </h2>
+                    <div class="border"></div>
+                </div>
+                <!-- /section title -->
+
+                <!-- Contact Details -->
+                <div class="contact-info col-md-6 wow fadeInUp" data-wow-duration="500ms">
+                    <h3>Contact Details</h3>
+                    <p>in case of any queries you can contact us via this form or via the channels given below:</p>
+                    <div class="contact-details" style="font-size:16px;">
+                        <div class="con-info clearfix">
+                            <i class="tf-map-pin"></i>
+                            <span>Netaji Subhas Institue of Technology,Dwarka Sec-3,DELHI</span>
+                        </div>
+
+                        <div class="con-info clearfix">
+                            <i class="tf-ion-ios-telephone-outline"></i>
+                            <span>&nbsp;Shubham Singh:+91 97117 78196</span>
+                        </div>
+                        <div class="con-info clearfix">
+                            <i class="tf-ion-ios-telephone-outline"></i>
+                            <span>&nbsp;Aishanya Singh:+91 97161 07555</span>
+                        </div>
+
+
+                        <div class="con-info clearfix">
+                            <i class="tf-ion-ios-email-outline"></i>
+                            <span>Email:teamc.hackeam2018@gmail.com</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- / End Contact Details -->
+
+                <!-- Contact Form -->
+                <div class="contact-form col-md-6 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="300ms">
+                    <form id="contact-form" method="post" action="https://formspree.io/teamc.hackeam2018@gmail.com" role="form">
+
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" class="form-control" name="name" id="name">
+                        </div>
+
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email" class="form-control" name="email" id="email">
+                        </div>
+
+                        <div class="form-group">
+                            <input type="text" placeholder="Subject" class="form-control" name="subject" id="subject">
+                        </div>
+
+                        <div class="form-group">
+                            <textarea rows="6" placeholder="Message" class="form-control" name="message" id="message"></textarea>
+                        </div>
+
+                        <div id="mail-success" class="success">
+                            Thank you. The Mailman is on His Way :)
+                        </div>
+
+                        <div id="mail-fail" class="error">
+                            Sorry, don't know what happened. Try later :(
+                        </div>
+
+                        <div id="cf-submit">
+                            <input type="submit" id="contact-submit" class="btn btn-transparent" value="Submit">
+                        </div>
+
+                    </form>
+                </div>
+                <!-- ./End Contact Form -->
+
+            </div>
+            <!-- end row -->
+        </div>
+        <!-- end container -->
+
+        <!-- Google Map -->
+        <div class="google-map">
+            <div id="map-canvas"></div>
+        </div>
+        <!-- /Google Map -->
+
+    </section>
+    <!-- end section -->
+
+
+
+
+
+    <!-- end Contact Area
+		========================================== -->
+
+    <footer id="footer" class="bg-one">
+        <div class="container">
+            <div class="row wow fadeInUp" data-wow-duration="500ms">
+                <div class="col-lg-12">
+
+                    <!-- Footer Social Links -->
+                    <div class="social-icon">
+                        <ul class="list-inline">
+                            <li>
+                                <a href="https://www.facebook.com/events/290600888128563/?ti=cl">
+                                    <i class="tf-ion-social-facebook"></i>
+                                </a>
+                            </li>
+                            <!-- <li><a href=""><i class="tf-ion-social-twitter"></i></a></li> -->
+                            <!-- <li><a href="#"><i class="tf-ion-social-google-outline"></i></a></li> -->
+                            <li>
+                                <a href="https://www.flickr.com/people/teamc2018/">
+                                    <i class="fa fa-flickr"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/company/13598575/">
+                                    <i class="tf-ion-social-linkedin"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/hackeam_2018/">
+                                    <i class="tf-ion-social-instagram"></i>
+                                </a>
+                            </li>
+                            <!-- <li><a href="#"><i class="tf-ion-social-dribbble-outline"></i></a></li> -->
+                            <!-- <li><a href="#"><i class="tf-ion-social-pinterest-outline"></i></a></li> -->
+                        </ul>
+                    </div>
+                    <!--/. End Footer Social Links -->
+
+                    <!-- copyright -->
+                    <div class="copyright text-center">
+                        <a href="index.html">
+
+
+                            <img src="images/HACKEAM.png" alt="HACKEAM" style="width:100px" />
+                            <!-- <svg width="40px" height="40px" viewBox="0 0 45 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+		                        <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+		                            <g id="Group" transform="translate(2.000000, 2.000000)" stroke="#57CBCC" stroke-width="3">
+		                                <ellipse id="Oval" cx="20.5" cy="20" rx="20.5" ry="20"></ellipse>
+		                                <path d="M6,7 L33.5,34.5" id="Line-2" stroke-linecap="square"></path>
+		                                <path d="M21,20 L34,7" id="Line-3" stroke-linecap="square"></path>
+		                            </g>
+		                        </g> -->
+                            </svg>
+                        </a>
+                        <br />
+
+                        <p>Design And Developed by
+                            <a href="https://www.teamc18.com">Hackeam Team</a>. Copyright &copy;
+                            <script>document.write(new Date().getFullYear())</script>. All Rights Reserved.</p>
+                    </div>
+                    <!-- /copyright -->
+
+                </div>
+                <!-- end col lg 12 -->
+            </div>
+            <!-- end row -->
+        </div>
+        <!-- end container -->
+    </footer>
+    <!-- end footer -->
+
+    <div id="scroll-up">
+        up
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <!--
+		Essential Scripts
+		=====================================-->
+
+    <!-- Main jQuery -->
+    <script type="text/javascript" src="plugins/jquery/dist/jquery.min.js"></script>
+    <!-- Bootstrap 3.1 -->
+    <script type="text/javascript" src="plugins/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- Slick Carousel -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript" src="plugins/slick-carousel/slick/slick.min.js"></script>
+    <!-- Portfolio Filtering -->
+    <script type="text/javascript" src="plugins/mixitup/dist/mixitup.min.js"></script>
+    <!-- Smooth Scroll -->
+    <script type="text/javascript" src="plugins/smooth-scroll/dist/js/smooth-scroll.min.js"></script>
+    <!-- Magnific popup -->
+    <script type="text/javascript" src="plugins/magnific-popup/dist/jquery.magnific-popup.min.js"></script>
+
+    <!-- Sticky Nav -->
+    <script type="text/javascript" src="plugins/Sticky/jquery.sticky.js"></script>
+    <!-- Number Counter Script -->
+    <script type="text/javascript" src="plugins/count-to/jquery.countTo.js"></script>
+    <!-- wow.min Script -->
+    <script type="text/javascript" src="plugins/wow/dist/wow.min.js"></script>
+    <!-- Custom js -->
+    <script type="text/javascript" src="js/script.js"></script>
+    <!-- Google Map API -->
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js?key=AIzaSyDAmeK6dtYFMLRTA4-E9uWkGiPDkSafDzo&callback=initialize"></script>
+
 </body>
+
 </html>
