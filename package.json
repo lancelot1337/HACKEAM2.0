@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/lancelot1337/HACKEAM2.0/issues"
   },
-  "homepage": "https://github.com/lancelot1337/HACKEAM2.0#readme"
+  "homepage": "https://github.com/lancelot1337/HACKEAM2.0#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "morgan": "^1.9.1"
+  }
 }
