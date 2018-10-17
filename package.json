@@ -1,0 +1,19 @@
+{
+  "name": "hackeam2.0",
+  "version": "1.0.0",
+  "description": "Landing page for HACKEAM 2.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lancelot1337/HACKEAM2.0.git"
+  },
+  "author": "lancelot1337",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lancelot1337/HACKEAM2.0/issues"
+  },
+  "homepage": "https://github.com/lancelot1337/HACKEAM2.0#readme"
+}
