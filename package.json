@@ -2,7 +2,7 @@
   "name": "hackeam2.0",
   "version": "1.0.0",
   "description": "Landing page for HACKEAM 2.0",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
